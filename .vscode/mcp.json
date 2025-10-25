@@ -13,15 +13,21 @@
       "command": "npx",
       "args": ["-y", "firecrawl-mcp"],
       "env": {
-        "FIRECRAWL_API_KEY": "fc-b92e975638d946da81b8692b4dc8b0cf}"
+        "FIRECRAWL_API_KEY": "xxxxxxxxxxxxxxxxxxxx}"
       }
     },
     "QuickServer": {
       "command": "python",
       "args": ["serverconfig.py"]
      
-    }
-    
+    },
+    "playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			],
+			"type": "stdio"
+		}
   }
 
 }
